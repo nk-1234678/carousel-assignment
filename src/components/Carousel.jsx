@@ -129,11 +129,7 @@ const Carousel = () => {
         </svg>
       </div>
       <div className="relative flex flex-row justify-between items-center gap-4 h-[320px] w-[560px] rounded-[30px] bg-gradient-to-br from-white via-purple-50 to-white shadow-2xl backdrop-blur-md border border-white/60 transition duration-500 hover:scale-[1.02] hover:shadow-purple-300 overflow-hidden">
-
-      {/* Decorative background shapes */}
-      <div className="absolute -top-10 -left-10 w-40 h-40 bg-purple-200 opacity-20 rounded-full blur-2xl z-0"></div>
-      <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-pink-300 opacity-20 rounded-full blur-2xl z-0"></div>
-
+        
       {/* ID Tag */}
       <div className="absolute top-4 left-4 bg-purple-100 text-purple-800 font-semibold text-sm px-4 py-1 rounded-full shadow-md z-10">
         ID: {current.id}
